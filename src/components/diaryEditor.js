@@ -18,7 +18,8 @@ class diaryEditor extends Component {
 
     saveNote = (e) => { 
         e.preventDefault()
-        console.log(this.state.text, this.state.date)
+        console.log(this.state.text)
+        console.log( this.state.date)
 
         const data = {
             noteContent: this.state.text,
@@ -28,6 +29,7 @@ class diaryEditor extends Component {
         ref.push(data);
     }
     cancelNote = () => {
+        
         this.setState({text: ""})
     }
 
