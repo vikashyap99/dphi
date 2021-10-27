@@ -16,7 +16,7 @@ class MainComponent extends Component {
         return (
             <div>
 
-            <h1>Diary</h1>
+            <h1>My Diary</h1>
 
             <div className="p-d-flex">
                 <div className="p-mr-5">
